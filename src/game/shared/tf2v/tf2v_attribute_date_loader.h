@@ -55,7 +55,7 @@ public:
 	bool 				IsPaintPlayerApplied( CEconItemView *pItem, const CEconItemAttribute *pPaintAttrib );
 	
 	// Anachronistic modifiers
-	bool 				ItemIsAllowedTimePeriod( CEconItemView *pItem );
+	bool 				ItemIsAllowedTimePeriod( CEconItemView *pItem, int iClass == -1, int iSlot == -1);
 	bool 				ItemQualityIsAllowedTimePeriod( int iQuality );
 	bool 				HasAnachronisticAttributes( CEconItemView *pItem );
 
@@ -84,6 +84,14 @@ inline CEconItemView *GetTimePeriodCompliantItem( CEconItemView *pOriginalItem, 
 {
 	if ( g_pTF2VAttributeDateManager )
 		return g_pTF2VAttributeDateManager->GetTimePeriodCompliantItem( pOriginalItem, iClass, iSlot );
+	return pOriginalItem;
+}
+
+// Accessor functions (for backwards compatibility with existing code)
+inline bool ItemIsAllowedTimePeriod( CEconItemView *pItem, int iClass == -1, int iSlot == -1)
+{
+	if ( g_pTF2VAttributeDateManager )
+		return g_pTF2VAttributeDateManager->ItemIsAllowedTimePeriod( CEconItemView *pItem, int iClass, int iSlot;
 	return pOriginalItem;
 }
 
