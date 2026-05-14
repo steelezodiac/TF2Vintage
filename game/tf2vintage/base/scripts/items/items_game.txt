@@ -18259,7 +18259,8 @@
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun.mdl"
+			"model_player"	"models/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun_v.mdl"
+			"model_world"	"models/workshop/weapons/c_models/c_gatling_gun/c_gatling_gun.mdl"
 			"attach_to_hands"	"1"
 			"propername"	"1"
 			"item_quality"	"unique"
@@ -19204,7 +19205,8 @@
 			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_canton/c_canton"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop_partner/weapons/c_models/c_canton/c_canton.mdl"
+			"model_player"	"models/workshop_partner/weapons/c_models/c_canton/c_canton_v.mdl"
+			"model_world"	"models/workshop_partner/weapons/c_models/c_canton/c_canton.mdl"
 			"attach_to_hands"	"1"
 			"propername"	"1"
 			"item_quality"	"unique"
@@ -21239,7 +21241,8 @@
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_tomislav/c_tomislav"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop/weapons/c_models/c_tomislav/c_tomislav.mdl"
+			"model_player"	"models/workshop/weapons/c_models/c_tomislav/c_tomislav_v.mdl"
+			"model_world"	"models/workshop/weapons/c_models/c_tomislav/c_tomislav.mdl"
 			"attach_to_hands"	"1"
 			"inspect_panel_dist" "88"
 			"item_quality"	"unique"
@@ -21876,7 +21879,8 @@
 			"image_inventory"	"backpack/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain.mdl"
+			"model_player"	"models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain_v.mdl"
+			"model_world"	"models/workshop/weapons/c_models/c_iron_curtain/c_iron_curtain.mdl"
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
 			"min_ilevel"	"5"
@@ -23283,7 +23287,8 @@
 			"image_inventory"	"backpack/weapons/c_models/c_w_ludmila/c_w_ludmila"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_minigun/c_minigun_natascha.mdl"
+			"model_player"	"models/weapons/c_models/c_minigun/c_minigun_natascha_v.mdl"
+			"model_world"	"models/weapons/c_models/c_minigun/c_minigun_natascha.mdl"
 			"inspect_panel_dist" "88"
 			"attach_to_hands"	"1"
 			"item_quality"	"unique"
@@ -23331,7 +23336,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 				"sound_reload"	"Weapon_Minifun.Reload"
@@ -28852,7 +28863,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -46266,7 +46283,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_xmas.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_xmas_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_xmas.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -64178,7 +64201,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -64567,7 +64596,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -64713,7 +64748,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -64832,7 +64873,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -65053,7 +65100,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -65418,7 +65471,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -66167,7 +66226,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -66191,7 +66256,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -66215,7 +66286,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -66435,7 +66512,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -66459,7 +66542,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -67059,7 +67148,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -67085,7 +67180,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -67111,7 +67212,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
@@ -67670,7 +67777,13 @@
 				{
 					"0"
 					{
-						"model"	"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer_v.mdl"
+						"model_display_flags"	"2"
+					}
+					"1"
+					{
+						"model"		"models/weapons/c_models/c_minigun/c_minigun_festivizer.mdl"
+						"model_display_flags"	"1"
 					}
 				}
 			}
